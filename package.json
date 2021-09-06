@@ -1,0 +1,25 @@
+{
+  "name": "palindrome-checker",
+  "version": "1.0.0",
+  "description": "Designing a Simple Palindrome Checker using HTML, CSS, JavaScript and simple server setup with Express Library",
+  "main": "server.js",
+  "scripts": {
+  "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msboffl/Palindrome-Checker.git"
+  },
+  "author": "Mareedu Saibabu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msboffl/Palindrome-Checker/issues"
+  },
+  "homepage": "https://github.com/msboffl/Palindrome-Checker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
