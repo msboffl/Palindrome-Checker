@@ -47,4 +47,8 @@ input {
     background: #fff;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+.output-text {
+    margin-top: 25px;
 }
