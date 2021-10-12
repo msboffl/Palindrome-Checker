@@ -1,7 +1,7 @@
 const inputValue = document.querySelector('input');
 const btnCheck = document.querySelector('button');
 
-btnCheck.addEventListener('click', (event) => {
+btnCheck.addEventListener('click', () => {
 
     const inputWord = inputValue.value.toLocaleLowerCase();
     console.log(inputWord);
@@ -15,14 +15,14 @@ btnCheck.addEventListener('click', (event) => {
     const joinArray = revArray.join("");
     console.log(joinArray);
 
-    if(inputWord == joinArray){
-    document.querySelector('.output-text').innerHTML = `
-    "${inputWord} = ${joinArray}" - is a Palindrome `;
+    if(inputWord == joinArray) {
+        document.querySelector('.output-text').innerHTML = `
+        "${inputWord} = ${joinArray}" - is a Palindrome `;
 
     }
     else {
         document.querySelector('.output-text').innerHTML = `
         "${inputWord} = ${joinArray}" - is not Palindrome `;
     }
-})
+});
 
